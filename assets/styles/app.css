@@ -12,6 +12,7 @@ body {
 .header {
   display: flex;
   justify-content: flex-end;
+  padding: 10%;
 }
 
 .middle {
@@ -49,4 +50,8 @@ body {
 .socials {
   display: flex;
   gap: 1rem;
+}
+
+.button {
+  margin-top: 100px;
 }
