@@ -14,7 +14,7 @@ body {
 }
 
 .middle {
-  color: #36b37E;
+  color: #36b37e;
 }
 
 .headline {
@@ -24,8 +24,8 @@ body {
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
   display: flex;
-  flex-direction: column; 
- justify-content: center;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   text-align: center;
 }
