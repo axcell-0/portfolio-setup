@@ -26,6 +26,11 @@ body {
   text-align: center;
 }
 
+.button {
+  color: #172b4d;
+  margin-top: 100px;
+}
+
 .headline {
   background-image: url('/assets/icons/header-illustration-mobile.svg');
   height: 600px; /* You must set a specified height */
@@ -51,8 +56,4 @@ body {
 .socials {
   display: flex;
   gap: 1rem;
-}
-
-.button {
-  color: #172b4d;
 }
