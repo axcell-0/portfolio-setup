@@ -1,4 +1,4 @@
-<a name="readme-top"></a>
+<a name="portfolio-setup"></a>
 
 <!--
 HOW TO USE:
@@ -24,11 +24,31 @@ OPTIONAL SECTIONS:
 
 After you're finished please remove all the comments and instructions!
 -->
-
+  
 <div align="center">
+<📗 Table of Contents
+📖 About the Project
+🛠 Built With
+Tech Stack
+Key Features
+🚀 Live Demo
+💻 Getting Started
+Setup
+Prerequisites
+Install
+Usage
+Run tests
+Deployment
+👥 Authors
+🔭 Future Features
+🤝 Contributing
+⭐️ Show your support
+🙏 Acknowledgements
+❓ FAQ (OPTIONAL)
+📝 License
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="AXCELL EVANS" alt="logo" width="140"  height="auto" />
-  <br/>
+
+# THIERRY NOUMBUH (AXCELL EVANS)
 
   <h3><b>My new blog</b></h3>
 
@@ -39,12 +59,31 @@ After you're finished please remove all the comments and instructions!
 # 📗 Table of Contents
 
 - 
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 <!-- PROJECT DESCRIPTION -->
 
 <!-- this is my new blog I created with HTML, CSS -->
 
 # Hello Microverse
-This project is a Hello Microverse repository. No complex codind is required for this exercise. The goal is to master all of the tools and best practices learned in previous steps. They will be used in all Microverse projects and most likely in future jobs as well, so it is important to know!.
+This project is my portfolio which will be used for learning in the microverse. No complex codind is required for this exercise. The goal is to master all of the tools and best practices learned in previous steps. They will be used in all Microverse projects and most likely in future jobs as well, so it is important to know!.
 1- HTML
 2- css
 3- linters
@@ -67,7 +106,7 @@ This project is a Hello Microverse repository. No complex codind is required for
 
 ### Key Features <a name="key-features"></a>
 - added index.HTML
-- added Style.CSS
+- added app.CSS
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,9 +178,9 @@ You can deploy this project using:
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## Author <a name="author"></a>
 
-👤 AXCELL EVANS
+## 👤 THIERRY NOUMBUH (AXCELL EVANS)
 
 - GitHub: [@githubhandle](https://github.com/axcell-0)
 - Twitter: [@twitterhandle](https://twitter.com/noumbuh)
@@ -155,7 +194,7 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] add a header
+- [ ] add a work section
 - [ ] add footer
 - [ ] add more styeling
 
@@ -176,7 +215,7 @@ Feel free to check the [issues page](../../issues/).
 ## ⭐️ Show your support <a name="support"></a>
 
 
-If you like this project just give me a star
+If you like this project just give me a star thannks
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -185,7 +224,7 @@ If you like this project just give me a star
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank Microvers and my coding partners
+I would like to thank Microvers and my coding partners with my code reviewer
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

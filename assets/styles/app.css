@@ -1,10 +1,11 @@
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 .page {
   display: flex;
   flex-direction: column;
+  margin: unset;
   overflow: auto;
 }
 
@@ -15,6 +16,15 @@ body {
 
 .middle {
   color: #36b37e;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  /* or 140% */
+
+  text-align: center;
 }
 
 .headline {
@@ -28,18 +38,17 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 20px;
 }
 
 .lines {
   font-size: 40px;
   line-height: 52px;
+  margin-top: unset;
+  margin-bottom: unset;
 }
 
 .socials {
   display: flex;
   gap: 1rem;
-}
-
-.greating {
-  margin-top: 1px;
 }
