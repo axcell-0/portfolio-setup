@@ -1,5 +1,5 @@
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .page {
@@ -23,7 +23,6 @@ body {
   font-size: 20px;
   line-height: 28px;
   /* or 140% */
-
   text-align: center;
 }
 
