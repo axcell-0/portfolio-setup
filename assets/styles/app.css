@@ -1,45 +1,44 @@
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .page {
-    display: flex;
-    flex-direction: column;
-    overflow: auto;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
 }
 
 .header {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .middle {
-    color: #36B37E;
+  color: #36B37E;
 }
 
 .headline {
-    background-image: url('/assets/icons/header-illustration-mobile.svg');
-    height: 600px; /* You must set a specified height */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  background-image: url('/assets/icons/header-illustration-mobile.svg');
+  height: 600px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  display: flex;
+  flex-direction: column;    justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .lines {
-    font-size: 40px;
-line-height: 52px;
+  font-size: 40px;
+  line-height: 52px;
 }
 
 .socials {
-    display: flex;
-    gap: 1rem;
+  display: flex;
+  gap: 1rem;
 }
 
 .greating {
-    margin-top: 0px;
+  margin-top: 1px;
 }
