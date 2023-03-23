@@ -25,32 +25,12 @@ OPTIONAL SECTIONS:
 After you're finished please remove all the comments and instructions!
 -->
   
-<div align="center">
-<📗 Table of Contents
-📖 About the Project
-🛠 Built With
-Tech Stack
-Key Features
-🚀 Live Demo
-💻 Getting Started
-Setup
-Prerequisites
-Install
-Usage
-Run tests
-Deployment
-👥 Authors
-🔭 Future Features
-🤝 Contributing
-⭐️ Show your support
-🙏 Acknowledgements
-❓ FAQ (OPTIONAL)
-📝 License
+
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
 
 # THIERRY NOUMBUH (AXCELL EVANS)
 
-  <h3><b>My new blog</b></h3>
+  <h3><b>my portfolio</b></h3>
 
 </div>
 
@@ -82,7 +62,7 @@ Deployment
 
 <!-- this is my new blog I created with HTML, CSS -->
 
-# Hello Microverse
+# portfolio
 This project is my portfolio which will be used for learning in the microverse. No complex codind is required for this exercise. The goal is to master all of the tools and best practices learned in previous steps. They will be used in all Microverse projects and most likely in future jobs as well, so it is important to know!.
 1- HTML
 2- css
@@ -114,9 +94,6 @@ This project is my portfolio which will be used for learning in the microverse. 
 
 - [] comming soon
 
-
-- [Live Demo Link](https://google.com)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -140,7 +117,7 @@ Clone this repository to your desired folder:
 
 Run this command:
   cd my-folder
-  git clone https://github.com/axcell-0/first-repo.git
+  git clone https://github.com/axcell-0/portfolio-setup.git
 
 ### Install
 
