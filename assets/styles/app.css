@@ -12,7 +12,7 @@ body {
 .header {
   display: flex;
   justify-content: flex-end;
-  padding: 10%;
+  padding: 5%;
 }
 
 .middle {
@@ -29,23 +29,11 @@ body {
 .button {
   color: #172b4d;
   margin-top: 100px;
-}
-
-.headline {
-  background-image: url('/assets/icons/header-illustration-mobile.svg');
-  height: 600px; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-  display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 20px;
 }
 
 .lines {
+  justify-content: center;
   font-size: 40px;
   line-height: 52px;
   margin-top: unset;
@@ -56,4 +44,27 @@ body {
 .socials {
   display: flex;
   gap: 1rem;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.menu {
+  display: flex;
+  justify-content: right;
+  padding: 40px;
+}
+
+.headline {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+}
+
+.background-image {
+  position: absolute;
+  width: 100%;
 }
