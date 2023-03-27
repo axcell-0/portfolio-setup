@@ -93,7 +93,7 @@ body {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  color:#3a4a42;
+  color: #3a4a42;
   font-size: larger;
 }
 
@@ -125,7 +125,7 @@ body {
   padding: 5px;
   font-size: x-small;
   color: #3a4a42;
-  background: #EBF0EE;
+  background: #ebf0ee;
 }
 
 .spoon {
@@ -189,8 +189,6 @@ body {
 .resume {
   background: #36b37f;
   color: white;
-  /* margin-top: 20px; */
-  /* margin-bottom: 20px; */
   border: none;
   padding: 10px;
   margin: 20px auto;
@@ -212,8 +210,6 @@ body {
   color: #344563;
   font-size: xx-large;
   padding-top: -20px;
-  /* margin-top: 2px; */
-  /* margin-bottom: 50px; */
 }
 
 .media {
@@ -312,7 +308,6 @@ body {
   margin: 0 25px 1px 25px;
   width: 100%;
 }
-
 
 .pro {
   position: relative;
