@@ -68,3 +68,262 @@ body {
   position: absolute;
   width: 100%;
 }
+
+.hdescription {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: #172b4d;
+}
+
+.hdescription::after {
+  content: '';
+  width: 48px;
+  height: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+  background: #36b37e;
+  border-radius: 24px;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color:#3a4a42;
+  font-size: larger;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  max-height: 500px;
+}
+
+.article {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  text-align: start;
+}
+
+.read {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+}
+
+.item {
+  display: flex;
+  padding: 5px;
+  font-size: x-small;
+  color: #3a4a42;
+  background: #EBF0EE;
+}
+
+.spoon {
+  position: absolute;
+  background: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  margin: 0 25px 1px 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.button-tag {
+  padding: 5px;
+  background: #36b37f;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.article-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.text-aling {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.paragraf {
+  display: flex;
+  justify-content: center;
+}
+
+.plane {
+  padding: 20px;
+  margin-left: -20px;
+  margin-bottom: -60px;
+}
+
+.square {
+  display: flex;
+  justify-content: end;
+  position: relative;
+  margin-top: -50px;
+  margin-bottom: 40px;
+}
+
+.resume-button {
+  display: flex;
+  justify-content: center;
+}
+
+.resume {
+  background: #36b37f;
+  color: white;
+  /* margin-top: 20px; */
+  /* margin-bottom: 20px; */
+  border: none;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+.write {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+  text-align: center;
+}
+
+.Language {
+  display: flex;
+  justify-content: center;
+  color: #344563;
+  font-size: xx-large;
+  padding-top: -20px;
+  /* margin-top: 2px; */
+  /* margin-bottom: 50px; */
+}
+
+.media {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  list-style-type: none;
+  margin-bottom: 2rem;
+  color: #36b37f;
+  background: white;
+}
+
+.final {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  margin: 0 25px 1px 25px;
+}
+
+.final-place {
+  position: absolute;
+}
+
+.final-place img {
+  width: 100px;
+  height: 100px;
+}
+
+.frame {
+  display: flex;
+  justify-content: center;
+  font-size: smaller;
+  gap: 1rem;
+  color: #36b37f;
+}
+
+.react-js {
+  background: white;
+}
+
+.ruby-on {
+  background: white;
+}
+
+.rspec {
+  background: white;
+}
+
+.capybara {
+  background: white;
+}
+
+.selenium {
+  background: white;
+}
+
+.frame-plus {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  color: #36b37f;
+  position: relative;
+  font-size: small;
+}
+
+.welcome {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  margin: 0 25px 1px 25px;
+}
+
+.given {
+  /* position: relative; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  text-align: center;
+}
+
+.given-to {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  margin: 0 25px 1px 25px;
+  width: 100%;
+}
+
+
+.pro {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+}
+
+.api {
+  background: white;
+}
