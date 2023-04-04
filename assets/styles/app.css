@@ -321,3 +321,14 @@ h6 {
   width: 100px;
   height: 100px;
 }
+
+p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  margin: 15px;
+  color: #172b4d;
+}
