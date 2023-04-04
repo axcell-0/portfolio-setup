@@ -370,3 +370,8 @@ textarea {
   margin-bottom: 20px;
   background-image: url('assets/icons/contact-back.svg');
 }
+
+.contact-b {
+  position: absolute;
+  right: 0;
+}
