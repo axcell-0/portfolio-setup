@@ -38,6 +38,14 @@ body {
   justify-content: center;
 }
 
+.button:hover {
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.button:focus {
+  background: #008552;
+}
+
 .lines {
   justify-content: center;
   font-size: 40px;
@@ -168,6 +176,14 @@ h1 {
   padding-bottom: 36px;
 }
 
+.button1:hover {
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.button1:focus {
+  background: #008552;
+}
+
 .button-text {
   outline: none;
   border: none;
@@ -177,6 +193,14 @@ h1 {
   width: 122px;
   height: 48px;
   font-size: medium;
+}
+
+.button-text:hover {
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.button-text:focus {
+  background: #008552;
 }
 
 .text-about {
@@ -222,6 +246,14 @@ h6 {
   display: flex;
   justify-content: center;
   padding: 12px;
+}
+
+.button2:hover {
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.button2:focus {
+  background: #008552;
 }
 
 .text-aline {
@@ -279,8 +311,11 @@ h6 {
   font-size: 12px;
 }
 
+ul {
+  list-style: none;
+}
+
 .text-container ul {
-  list-style-type: none;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -320,4 +355,93 @@ h6 {
 .holder-text1 img {
   width: 100px;
   height: 100px;
+}
+
+.about-p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  margin: 20px 15px;
+  color: #172b4d;
+}
+
+form {
+  font-family: 'Inter', sans-serif;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.inputs input {
+  width: 327px;
+  height: 48px;
+  border-radius: 4px;
+  border: 1px solid #d0d9d4;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+::placeholder {
+  padding: 10px;
+}
+
+textarea {
+  height: 114px;
+  width: 327px;
+  text-align: center;
+  border: solid 1px #60c095;
+  margin-bottom: 20px;
+}
+
+.contact-b {
+  position: absolute;
+  right: 0;
+  top: -100px;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  position: relative;
+}
+
+.socials-end {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  position: relative;
+}
+
+.socials-end::after {
+  content: '';
+  width: 140px;
+  height: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  bottom: -30px;
+  display: flex;
+  flex-direction: column;
+  background: black;
+  border-radius: 24px;
+  margin-bottom: 10px;
+}
+
+.final-text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
 }
