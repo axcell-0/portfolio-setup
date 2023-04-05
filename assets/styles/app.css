@@ -412,11 +412,11 @@ textarea {
 
 .details {
   display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    gap: 30px;
-    position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  position: relative;
 }
 
 .socials-end {
