@@ -386,10 +386,9 @@ form {
   width: 327px;
   height: 48px;
   border-radius: 4px;
-  border: 1 px solid #d0d9d4;
+  border: 1px solid #d0d9d4;
   box-sizing: border-box;
   padding: 10px;
-  border-color: #d0d9d4;
 }
 
 ::placeholder {
