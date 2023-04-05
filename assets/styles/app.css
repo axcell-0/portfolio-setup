@@ -39,7 +39,7 @@ body {
 }
 
 .button:hover {
-  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
 }
 
 .button:focus {
@@ -177,7 +177,7 @@ h1 {
 }
 
 .button1:hover {
-  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
 }
 
 .button1:focus {
@@ -196,7 +196,7 @@ h1 {
 }
 
 .button-text:hover {
-  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
 }
 
 .button-text:focus {
@@ -249,7 +249,7 @@ h6 {
 }
 
 .button2:hover {
-  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
 }
 
 .button2:focus {
