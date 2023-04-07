@@ -475,45 +475,45 @@ textarea {
 }
 
 @media only screen and (min-width: 768px) {
-    a {
+  a {
     text-decoration: none;
     color: #172b4d;
-    }
+  }
 
-    .header {
+  .header {
     display: flex;
     justify-content: center;
     padding: 5%;
     position: relative;
     z-index: 1;
-    }
+  }
 
-    .header-d {
+  .header-d {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    }
+  }
 
-    .hamburger {
+  .hamburger {
     display: none;
-    }
+  }
 
-    .background-image-d {
+  .background-image-d {
     position: absolute;
     width: 100%;
     display: block;
-    }
+  }
 
-    .background-image-d img {
+  .background-image-d img {
     width: 100%;
-    }
+  }
 
-    .background-image {
+  .background-image {
     display: none;
-    }
+  }
 
-    .section-placeholder {
+  .section-placeholder {
     margin-top: 50px;
     width: 100%;
     display: grid;
@@ -523,34 +523,34 @@ textarea {
     grid-row-gap: 24px;
     padding-right: 100px;
     padding-left: 100px;
-    }
+  }
 
-    .placeholder-container {
+  .placeholder-container {
     display: flex;
     flex-direction: column;
     width: 100%;
     padding: 0;
-    }
+  }
 
-    .text-container {
+  .text-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 16px;
     gap: 16px;
-    }
+  }
 
-    .hdescription {
+  .hdescription {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    }
+  }
 
-    .hdescription-d {
+  .hdescription-d {
     margin-top: 35rem;
-    }
+  }
 
-    .description {
+  .description {
     width: 920px;
     height: 96px;
     font-style: normal;
@@ -565,18 +565,18 @@ textarea {
     max-width: calc(100% - 250px);
     position: relative;
     z-index: 1;
-    }
+  }
 
-    .button {
+  .button {
     position: absolute;
     left: 25%;
     right: 25%;
     top: 37.5%;
     bottom: 37.5%;
     margin-top: 200px;
-    }
+  }
 
-    .socials {
+  .socials {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -587,43 +587,43 @@ textarea {
     order: 2;
     flex-grow: 0;
     margin-top: 24px;
-    }
+  }
 
-    .hdescription::after {
+  .hdescription::after {
     display: none;
-    }
+  }
 
-    .text-about {
+  .text-about {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-image: url(/assets/icons/plane-d.svg), url(/assets/icons/square-d.svg);
-    background-position: left  bottom, right ;
+    background-position: left bottom, right ;
     background-repeat: no-repeat, no-repeat;
     padding-top: 10rem;
-    }
+  }
 
-    .media {
+  .media {
     display: flex;
     flex-wrap: wrap;
-    }
+  }
 
-    .section6 {
+  .section6 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-left: 100px;
     margin-right: 100px;
-    }
+  }
 
-    .plane-image {
+  .plane-image {
     display: none;
-    }
+  }
 
-    .plane {
+  .plane {
     display: none;
-    } 
+  }
 
-    .h6 {
+  .h6 {
     width: 920px;
     height: 96px;
     font-style: normal;
@@ -635,26 +635,26 @@ textarea {
     flex: none;
     order: 1;
     flex-grow: 0;
-    }
+  }
 
-    .deskto-plane {
+  .deskto-plane {
     position: absolute;
     width: 288.04px;
     height: 126.82px;
     left: -53px;
-    top: 2502px; 
-    }
+    top: 2502px;
+  }
 
-    .desktop-square {
+  .desktop-square {
     position: absolute;
     left: 99.18%;
     right: -97.92%;
     top: 0.09%;
     bottom: 0%;
     transform: matrix(-1, 0, 0, 1, 0, 0);
-    }
+  }
 
-    .form {
+  .form {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-image: url(/assets/icons/frame-end.svg), url(/assets/icons/illustration-2.svg), url(/assets/icons/contact-illustration.svg);
@@ -664,21 +664,21 @@ textarea {
     margin-right: 100px;
     padding-top: 5rem;
     padding-bottom: 10rem;
-    }
+  }
 
-    .email {
+  .email {
     display: none;
-    }
+  }
 
-    .contact-b {
+  .contact-b {
     display: none;
-    }
+  }
 
-    .socials-end::after {
+  .socials-end::after {
     display: none;
-    }
+  }
 
-    .socials-end {
+  .socials-end {
     padding-bottom: 2rem;
-    }
+  }
 }
