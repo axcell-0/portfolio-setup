@@ -598,7 +598,7 @@ textarea {
     flex-direction: column;
     align-items: center;
     background-image: url(/assets/icons/plane-d.svg), url(/assets/icons/square-d.svg);
-    background-position: left bottom, right ;
+    background-position: left bottom, right;
     background-repeat: no-repeat, no-repeat;
     padding-top: 10rem;
   }
