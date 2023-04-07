@@ -21,10 +21,6 @@ body {
   padding: 5%;
 }
 
-.header-d {
-  display: none;
-}
-
 .hamburger {
   display: block;
   position: relative;
@@ -91,9 +87,6 @@ body {
 .background-image {
   position: absolute;
   width: 100%;
-}
-
-.background-image {
   display: block;
   position: absolute;
   width: 100%;
@@ -646,19 +639,6 @@ a {
   order: 1;
   flex-grow: 0;
 }
-
-/* .text-aline {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0px;
-  gap: 24px;
-  width: 920px;
-  height: 240px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-} */
 
 .deskto-plane {
   position: absolute;
