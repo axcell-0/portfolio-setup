@@ -517,12 +517,12 @@ textarea {
     margin-top: 50px;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     grid-column-gap: 32px;
     grid-row-gap: 24px;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 150px;
+    padding-left: 150px;
   }
 
   .placeholder-container {
@@ -610,9 +610,10 @@ textarea {
 
   .section6 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-left: 100px;
-    margin-right: 100px;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
   }
 
   .plane-image {
@@ -680,5 +681,26 @@ textarea {
 
   .socials-end {
     padding-bottom: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .section6 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+  .section-placeholder {
+    margin-top: 50px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 32px;
+    grid-row-gap: 24px;
+    padding-right: 150px;
+    padding-left: 150px;
   }
 }
