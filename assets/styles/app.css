@@ -187,17 +187,17 @@ h1 {
   padding-top: 15px;
 }
 
-.button1 {
+/* .button1 {
   padding-bottom: 36px;
-}
+} */
 
-.button1:hover {
+/* .button1:hover {
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
 }
 
 .button1:focus {
   background: #008552;
-}
+} */
 
 .button-text {
   outline: none;
@@ -208,10 +208,13 @@ h1 {
   width: 122px;
   height: 48px;
   font-size: medium;
+  margin-bottom: 36px;
+  transition-property: all;
 }
 
 .button-text:hover {
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  transition-duration: 1s;
 }
 
 .button-text:focus {
@@ -480,6 +483,23 @@ textarea {
     color: #172b4d;
   }
 
+  .button-text {
+    outline: none;
+    border: none;
+    background: #36b37f;
+    color: #ebf0ee;
+    border-radius: 4px;
+    width: 122px;
+    height: 48px;
+    font-size: medium;
+    margin-bottom: 36px;
+    transition-property: all, 1s;
+  }
+
+  .button-text:hover {
+    background-color: #ffcccc;
+  }
+
   .header {
     display: flex;
     justify-content: center;
@@ -705,13 +725,5 @@ textarea {
     grid-row-gap: 24px;
     padding-right: 150px;
     padding-left: 150px;
-  }
-
-  .placeholder-container {
-    transition: all;
-  }
-
-  .placeholder-container:hover {
-    background: #1e488f;
   }
 }
