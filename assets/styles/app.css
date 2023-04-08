@@ -703,4 +703,13 @@ textarea {
     padding-right: 150px;
     padding-left: 150px;
   }
+
+  .placeholder-container {
+    transition: all;
+  }
+
+  .placeholder-container:hover {
+    background: #1e488f;
+
+  }
 }
