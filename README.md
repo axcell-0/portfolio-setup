@@ -149,7 +149,8 @@ To run tests, run the following command:
 
 You can deploy this project using:
 
-[]comming soon
+ This link: 
+(https://axcell-0.github.io/portfolio-setup/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
