@@ -477,6 +477,10 @@ textarea {
   display: none;
 }
 
+.square-d {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
   a {
     text-decoration: none;
@@ -570,6 +574,16 @@ textarea {
     margin-top: 35rem;
   }
 
+  .headline {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+    text-align: center;
+  }
+
   .description {
     width: 920px;
     height: 96px;
@@ -593,7 +607,7 @@ textarea {
     right: 25%;
     top: 37.5%;
     bottom: 37.5%;
-    margin-top: 200px;
+    margin-top: 324px;
   }
 
   .socials {
@@ -617,11 +631,23 @@ textarea {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(/assets/icons/plane-d.svg), url(/assets/icons/square-d.svg);
+    background-image: url("/assets/icons/plane-d.svg"), url("/assets/icons/square-d.svg");
     background-position: left bottom, right;
     background-repeat: no-repeat, no-repeat;
     padding-top: 10rem;
   }
+
+  /* .square-d {
+    display: flex;
+    justify-content: flex-end;
+    top: 0;
+    position: relative;
+  }
+
+  .desktop-plane {
+    display: flex;
+    justify-self: unset;
+  } */
 
   .media {
     display: flex;
@@ -644,7 +670,7 @@ textarea {
     display: none;
   }
 
-  .h6 {
+  h6 {
     width: 920px;
     height: 96px;
     font-style: normal;
@@ -678,7 +704,7 @@ textarea {
   .form {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-image: url(/assets/icons/frame-end.svg), url(/assets/icons/illustration-2.svg), url(/assets/icons/contact-illustration.svg);
+    background-image: url("/assets/icons/frame-end.svg"), url("/assets/icons/illustration-2.svg"), url("/assets/icons/contact-illustration.svg");
     background-position: left, left 70px bottom, right bottom;
     background-repeat: no-repeat, no-repeat, no-repeat;
     margin-left: 100px;
