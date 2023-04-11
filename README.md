@@ -92,7 +92,8 @@ This project is my portfolio which will be used for learning in the microverse. 
 
 # LIVE DEMO 
 
-- [] comming soon
+- This link: 
+(https://axcell-0.github.io/portfolio-setup/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -149,7 +150,7 @@ To run tests, run the following command:
 
 You can deploy this project using:
 
-[]comming soon
+ [] coming soon
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
