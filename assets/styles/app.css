@@ -47,7 +47,7 @@ body {
   padding: 3rem;
   transition: 0.2s;
   list-style: none;
-  background: #FFFFFF;
+  background: #fff;
   mix-blend-mode: normal;
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
 }
@@ -57,7 +57,7 @@ body {
 }
 
 .header-d a {
-  color: #3A4A42;
+  color: #3a4a42;
   font-size: 32px;
   text-decoration: none;
 }
@@ -636,7 +636,8 @@ textarea {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(/assets/icons/plane-d.svg),
+    background-image:
+      url(/assets/icons/plane-d.svg),
       url(/assets/icons/square-d.svg);
     background-position: left bottom, right;
     background-repeat: no-repeat, no-repeat;
@@ -698,7 +699,8 @@ textarea {
   .form {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-image: url(/assets/icons/frame-end.svg),
+    background-image:
+      url(/assets/icons/frame-end.svg),
       url(/assets/icons/illustration-2.svg),
       url(/assets/icons/contact-illustration.svg);
     background-position: left, left 70px bottom, right bottom;
