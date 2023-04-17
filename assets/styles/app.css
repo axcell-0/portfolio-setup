@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .page {
@@ -22,9 +22,44 @@ body {
 }
 
 .hamburger {
-  display: block;
-  position: relative;
+  background-image: url(/assets/icons/menu.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 45px;
+  height: 30px;
   z-index: 1;
+}
+
+.menu-contaner {
+  gap: 10rem;
+}
+
+.hamburger.active {
+  background-image: url("/assets/icons/x.svg");
+  background-size: contain;
+}
+
+.header-d {
+  position: fixed;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  padding: 3rem;
+  transition: 0.2s;
+  list-style: none;
+  background: #fff;
+  mix-blend-mode: normal;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+}
+
+.header-d.active {
+  left: 0;
+}
+
+.header-d a {
+  color: #3a4a42;
+  font-size: 32px;
+  text-decoration: none;
 }
 
 .middle {
@@ -107,7 +142,7 @@ body {
 }
 
 .hdescription::after {
-  content: '';
+  content: "";
   width: 48px;
   height: 4px;
   margin-left: auto;
@@ -186,18 +221,6 @@ h1 {
   color: #3a4a42;
   padding-top: 15px;
 }
-
-/* .button1 {
-  padding-bottom: 36px;
-} */
-
-/* .button1:hover {
-  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
-}
-
-.button1:focus {
-  background: #008552;
-} */
 
 .button-text {
   outline: none;
@@ -395,7 +418,7 @@ ul {
 }
 
 form {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   margin-top: 10px;
   display: flex;
   flex-direction: column;
@@ -453,7 +476,7 @@ textarea {
 }
 
 .socials-end::after {
-  content: '';
+  content: "";
   width: 140px;
   height: 4px;
   margin-left: auto;
@@ -471,10 +494,6 @@ textarea {
   display: flex;
   flex-direction: column;
   margin-top: 30px;
-}
-
-.header-d {
-  display: none;
 }
 
 @media only screen and (min-width: 768px) {
@@ -617,7 +636,9 @@ textarea {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(/assets/icons/plane-d.svg), url(/assets/icons/square-d.svg);
+    background-image:
+      url(/assets/icons/plane-d.svg),
+      url(/assets/icons/square-d.svg);
     background-position: left bottom, right;
     background-repeat: no-repeat, no-repeat;
     padding-top: 10rem;
@@ -678,7 +699,10 @@ textarea {
   .form {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-image: url(/assets/icons/frame-end.svg), url(/assets/icons/illustration-2.svg), url(/assets/icons/contact-illustration.svg);
+    background-image:
+      url(/assets/icons/frame-end.svg),
+      url(/assets/icons/illustration-2.svg),
+      url(/assets/icons/contact-illustration.svg);
     background-position: left, left 70px bottom, right bottom;
     background-repeat: no-repeat, no-repeat, no-repeat;
     margin-left: 100px;

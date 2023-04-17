@@ -95,6 +95,9 @@ This project is my portfolio which will be used for learning in the microverse. 
 - This link: 
 (https://axcell-0.github.io/portfolio-setup/)
 
+- This link is for loom record of my project:
+(https://www.loom.com/share/da5c8ee89e864b689f3d9520815faf07)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
